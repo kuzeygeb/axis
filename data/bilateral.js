@@ -1,0 +1,52 @@
+// AXIS — Bilateral relationship data
+const B={};
+function bK(a,b){return[a,b].sort().join("-")}
+function sB(a,b,d){B[bK(a,b)]=d}
+
+sB("US","CN",{trade:690,unA:.12,so:["G20","WTO"],ten:"high",nt:"Strategic competition, tech decoupling, Taiwan"});
+sB("US","GB",{trade:295,unA:.88,so:["NATO","G7","Five Eyes"],ten:"low",nt:"Special Relationship, AUKUS"});
+sB("US","JP",{trade:230,unA:.82,so:["G7","Quad"],ten:"low",nt:"Treaty alliance since 1951"});
+sB("US","DE",{trade:252,unA:.75,so:["NATO","G7"],ten:"low",nt:"Key NATO ally"});
+sB("US","CA",{trade:780,unA:.85,so:["NATO","G7","Five Eyes","USMCA"],ten:"low",nt:"Largest trade relationship globally"});
+sB("US","IN",{trade:128,unA:.42,so:["Quad","G20"],ten:"low",nt:"Growing Quad partnership"});
+sB("US","RU",{trade:15,unA:.08,so:["UN SC"],ten:"critical",nt:"Post-2022 adversarial, sanctions"});
+sB("US","MX",{trade:750,unA:.48,so:["USMCA"],ten:"medium",nt:"Migration, trade integration"});
+sB("US","KR",{trade:185,unA:.72,so:["IPEF"],ten:"low",nt:"Treaty alliance, semiconductors"});
+sB("US","SA",{trade:46,unA:.35,so:["G20"],ten:"medium",nt:"Oil-security nexus"});
+sB("US","TR",{trade:32,unA:.28,so:["NATO"],ten:"medium",nt:"S-400 dispute, F-35 exclusion"});
+sB("US","BR",{trade:92,unA:.38,so:["G20"],ten:"low",nt:"Largest S.American partner"});
+sB("US","AU",{trade:65,unA:.86,so:["AUKUS","Five Eyes","Quad"],ten:"low",nt:"AUKUS submarine deal"});
+sB("US","FR",{trade:130,unA:.78,so:["NATO","G7"],ten:"low",nt:"Oldest alliance"});
+sB("US","IT",{trade:95,unA:.76,so:["NATO","G7"],ten:"low",nt:"NATO ally"});
+sB("US","AR",{trade:15,unA:.35,so:["G20"],ten:"low",nt:"Limited engagement"});
+sB("US","ID",{trade:42,unA:.32,so:["IPEF"],ten:"low",nt:"Indo-Pacific partnership"});
+sB("US","ZA",{trade:18,unA:.28,so:["G20"],ten:"low",nt:"AGOA framework"});
+sB("CN","RU",{trade:240,unA:.92,so:["SCO","BRICS"],ten:"low",nt:"No-limits partnership"});
+sB("CN","JP",{trade:318,unA:.15,so:["RCEP"],ten:"high",nt:"Senkaku/Diaoyu disputes"});
+sB("CN","KR",{trade:310,unA:.22,so:["RCEP"],ten:"medium",nt:"THAAD dispute"});
+sB("CN","DE",{trade:298,unA:.18,so:["G20"],ten:"medium",nt:"De-risking debate"});
+sB("CN","AU",{trade:215,unA:.14,so:["RCEP"],ten:"high",nt:"Trade war post-2020"});
+sB("CN","BR",{trade:160,unA:.62,so:["BRICS"],ten:"low",nt:"Top trade partner"});
+sB("CN","SA",{trade:106,unA:.55,so:["BRICS"],ten:"low",nt:"Largest oil customer"});
+sB("CN","IN",{trade:135,unA:.38,so:["SCO","BRICS"],ten:"high",nt:"Border clashes"});
+sB("CN","GB",{trade:120,unA:.15,so:["G20"],ten:"high",nt:"Post-HK deterioration"});
+sB("CN","ID",{trade:125,unA:.48,so:["RCEP"],ten:"medium",nt:"SCS disputes"});
+sB("CN","TR",{trade:42,unA:.35,so:["G20"],ten:"medium",nt:"BRI corridor, Uyghur issue"});
+sB("RU","TR",{trade:62,unA:.35,so:["G20"],ten:"medium",nt:"S-400, TurkStream, Syria"});
+sB("RU","IN",{trade:65,unA:.48,so:["SCO","BRICS"],ten:"low",nt:"Defense supplier"});
+sB("RU","DE",{trade:18,unA:.08,so:["G20"],ten:"critical",nt:"Nord Stream collapse"});
+sB("RU","SA",{trade:8,unA:.45,so:["OPEC+","BRICS"],ten:"low",nt:"OPEC+ coordination"});
+sB("DE","FR",{trade:198,unA:.90,so:["NATO","G7","EU"],ten:"low",nt:"EU engine"});
+sB("DE","TR",{trade:50,unA:.30,so:["NATO"],ten:"medium",nt:"3M+ diaspora"});
+sB("DE","GB",{trade:175,unA:.82,so:["NATO","G7"],ten:"low",nt:"Post-Brexit"});
+sB("GB","FR",{trade:140,unA:.85,so:["NATO","G7"],ten:"low",nt:"Lancaster House"});
+sB("GB","AU",{trade:28,unA:.88,so:["AUKUS","Five Eyes"],ten:"low",nt:"AUKUS pact"});
+sB("JP","KR",{trade:82,unA:.65,so:["RCEP"],ten:"medium",nt:"Historical tension"});
+sB("JP","IN",{trade:22,unA:.55,so:["Quad"],ten:"low",nt:"Quad partners"});
+sB("JP","AU",{trade:75,unA:.84,so:["Quad","RCEP"],ten:"low",nt:"RAA agreement"});
+sB("BR","AR",{trade:25,unA:.72,so:["Mercosur"],ten:"low",nt:"Mercosur core"});
+sB("BR","ZA",{trade:4,unA:.68,so:["BRICS"],ten:"low",nt:"South-south"});
+sB("SA","TR",{trade:12,unA:.38,so:["OIC"],ten:"medium",nt:"OIC rivalry"});
+sB("FR","IT",{trade:110,unA:.87,so:["NATO","G7","EU"],ten:"low",nt:"Quirinal Treaty"});
+sB("IT","DE",{trade:155,unA:.85,so:["NATO","G7","EU"],ten:"low",nt:"EU founders"});
+sB("IN","SA",{trade:53,unA:.32,so:["G20"],ten:"low",nt:"Oil dependency"});
